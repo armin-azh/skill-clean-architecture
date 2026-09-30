@@ -17,10 +17,10 @@ The skill uses the KnowMe `core-app` Go service as a concrete example. Its rules
 
 ## Quick start
 
-Keep this folder intact when publishing or installing the skill. If this folder is the root of a public GitHub repository, replace `OWNER/REPO` below with its address:
+Keep this folder intact when publishing or installing the skill. If this folder is the root of a public GitHub repository, replace `armin-azh/skill-clean-architecture` below with its address:
 
 ```sh
-npx skills add OWNER/REPO --skill clean-architecture-project
+npx skills add armin-azh/skill-clean-architecture --skill clean-architecture-project
 ```
 
 For a local Codex installation, copy the complete `clean-architecture-project` folder into `~/.codex/skills/`. The `SKILL.md` and its `references/` directory must stay together.
